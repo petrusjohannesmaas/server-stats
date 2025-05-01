@@ -2,7 +2,7 @@
 
 A bash script to get basic hardware stats for any Linux system (CPU, RAM, Disk usage, etc.)
 
-##### How to use it
+### How to use it
 
 **Clone the repository**:
 ```shell
