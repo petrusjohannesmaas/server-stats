@@ -6,8 +6,8 @@ A bash script to get basic hardware stats for any Linux system (CPU, RAM, Disk u
 
 **Clone the repository**:
 ```shell
-git clone https://github.com/AMM48/devops-lab.git
-cd server-performance-stats
+git clone https://github.com/petrusjohannesmaas/server-stats
+cd server-stats
 ```
 
 **Make the script executable**:
