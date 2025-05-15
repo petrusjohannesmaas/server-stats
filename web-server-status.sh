@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sites=("https://www.facebook.com" "https://www.twitter.com" "https://www.instagram.com" "https://www.tiktok.com")
-log_file="server_status.log"
+log_file="web_server_status.log"
 
 echo "Checking social media status..."
 for site in "${sites[@]}"; do

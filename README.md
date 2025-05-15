@@ -1,8 +1,22 @@
 # Server Performance Stats
 
-A bash script to get basic hardware stats for any Linux system (CPU, RAM, Disk usage, etc.)
+### 🧠 Overview
+`server-stats.sh` is a bash script to get basic stats for any Linux system *(CPU, RAM, Disk usage, etc.)*
 
-### How to use it
+**Other scripts in the repository:**
+* `benchmark`: Run a basic benchmark test on your hardware. 
+* `web-server-status`: Check if a specific set of web servers are currently up *(or down)* and create a log file. 
+
+**Dependencies**:
+
+`benchmark.sh` requires the "**sysbench**" package to run.
+```sh
+sudo apt install sysbench
+```
+
+---
+
+### ⚡️ How to use the scripts
 
 **Clone the repository**:
 ```shell
@@ -10,14 +24,14 @@ git clone https://github.com/petrusjohannesmaas/server-stats
 cd server-stats
 ```
 
-**Make the script executable**:
+**Make a script executable**:
 ```shell
-chmod +x server-stats.sh
+chmod +x the-script.sh
 ```
 
 **Execute the script**:
 ```shell
-./server-stats.sh
+./the-script.sh
 ```
 
-Project is from **roadmap.sh** DevOps roadmap here's the link: [Click here](https://roadmap.sh/projects/server-stats)
+---
