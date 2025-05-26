@@ -9,9 +9,9 @@
 
 **Dependencies**:
 
-`benchmark.sh` requires the "**sysbench**" package to run.
+`benchmark.sh` requires the "**sysbench**" and "**lshw**" packages to run.
 ```sh
-sudo apt install sysbench
+sudo apt install sysbench lshw
 ```
 
 ---
