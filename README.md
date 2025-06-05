@@ -1,11 +1,9 @@
-# Server Performance Stats
+# Server Utilities
 
 ### 🧠 Overview
-`server-stats.sh` is a bash script to get basic stats for any Linux system *(CPU, RAM, Disk usage, etc.)*
-
-**Other scripts in the repository:**
-* `benchmark`: Run a basic benchmark test on your hardware. 
-* `web-server-status`: Check if a specific set of web servers are currently up *(or down)* and create a log file. 
+* `server-stats.sh` is a bash script to get basic stats for any Linux system *(CPU, RAM, Disk usage, etc.)
+* `benchmark.sh`: Run a basic benchmark test on your hardware. 
+* `web-server-status.sh`: Check if a specific set of web servers are currently up *(or down)* and create a log file. 
 
 **Dependencies**:
 
